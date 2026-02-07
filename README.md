@@ -113,7 +113,7 @@ author=玄昼
 ## 致谢
 
 - **[topjohnwu/Magisk](https://github.com/topjohnwu/Magisk)** — Root 方案
-- **[Kisuke](https://www.mobileread.com/forums/showthread.php?t=366292)** — Palma 2 Pro Root 方法
+- **[Kisuke](https://github.com/Kisuke-CZE/Palma_2_Pro-tips#rooting-palma-2-pro)** — Palma 2 Pro Root 方法
 
 ---
 ---
@@ -219,4 +219,4 @@ The module uses Magisk's systemless overlay to replace `/system/framework/servic
 ## Credits
 
 - **[topjohnwu/Magisk](https://github.com/topjohnwu/Magisk)** — Root solution
-- **[Kisuke](https://www.mobileread.com/forums/showthread.php?t=366292)** — Palma 2 Pro root method
+- **[Kisuke](https://github.com/Kisuke-CZE/Palma_2_Pro-tips#rooting-palma-2-pro)** — Palma 2 Pro root method
