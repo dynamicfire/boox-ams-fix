@@ -1,0 +1,6 @@
+id=boox-ams-fix
+name=Boox AMS NullPointerException Fix
+version=v1.0
+versionCode=1
+author=玄昼
+description=Fixes Magisk app crash on Boox firmware 4.1 by patching addPackageDependency() null check in ActivityManagerService. Changes 1 byte in classes.dex to skip Boox WebView code when ProcessRecord is null.
