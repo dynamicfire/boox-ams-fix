@@ -6,7 +6,6 @@
 
 [![Firmware](https://img.shields.io/badge/Firmware-4.1.x-orange)]()
 [![Magisk](https://img.shields.io/badge/Magisk_Module-v30.6-brightgreen)]()
-[![SoC](https://img.shields.io/badge/SoC-SM7225-red)]()
 
 **[中文](#中文) | [English](#english)**
 
@@ -20,10 +19,15 @@
 
 已知受影响设备：
 
-- Boox P6 Pro 小彩马 — 已验证修复
-- Boox Note Air 3C — [Magisk #9319](https://github.com/topjohnwu/Magisk/issues/9319)
-- Boox Palma 2 — [BooxPalma2RootGuide #8](https://github.com/jdkruzr/BooxPalma2RootGuide/issues/8)
-- 其他使用 SM7225 (Snapdragon 750G) 且固件为 4.1 的文石设备
+| 设备 | 固件 | 状态 | 来源 |
+|------|------|------|------|
+| Boox P6 Pro 小彩马 | 4.1 | ✅ 已修复 | 作者验证 |
+| Boox Go Color 7 (Gen II) | 4.1.1 | ✅ 已修复 | [社区确认](https://github.com/jdkruzr/BooxPalma2RootGuide/issues/8#issuecomment-3879552498) |
+| Boox Leaf 5 | 4.1 | ✅ 已修复 | [社区确认](https://github.com/jdkruzr/BooxPalma2RootGuide/issues/8#issuecomment-3879664382) |
+| Boox Note Air 3C | 4.1 | 受影响 | [Magisk #9319](https://github.com/topjohnwu/Magisk/issues/9319) |
+| Boox Note Air 4C | 4.1 | 受影响 | [社区报告](https://github.com/jdkruzr/BooxPalma2RootGuide/issues/8#issuecomment-3879584476) |
+| Boox Palma 2 | 4.1 | 受影响 | [BooxPalma2RootGuide #8](https://github.com/jdkruzr/BooxPalma2RootGuide/issues/8) |
+| 其他文石 4.1.x 设备 | 4.1.x | 可能受影响 | — |
 
 ## 安装
 
@@ -126,10 +130,15 @@ On Boox firmware 4.1.x, the Magisk app freezes on the splash screen and never re
 
 Known affected devices:
 
-- Boox P6 Pro 小彩马 — fix verified
-- Boox Note Air 3C — [Magisk #9319](https://github.com/topjohnwu/Magisk/issues/9319)
-- Boox Palma 2 — [BooxPalma2RootGuide #8](https://github.com/jdkruzr/BooxPalma2RootGuide/issues/8)
-- Other Boox devices with SM7225 (Snapdragon 750G) SoC on firmware 4.1
+| Device | Firmware | Status | Source |
+|--------|----------|--------|--------|
+| Boox P6 Pro 小彩马 | 4.1 | ✅ Fixed | Author verified |
+| Boox Go Color 7 (Gen II) | 4.1.1 | ✅ Fixed | [Community confirmed](https://github.com/jdkruzr/BooxPalma2RootGuide/issues/8#issuecomment-3879552498) |
+| Boox Leaf 5 | 4.1 | ✅ Fixed | [Community confirmed](https://github.com/jdkruzr/BooxPalma2RootGuide/issues/8#issuecomment-3879664382) |
+| Boox Note Air 3C | 4.1 | Affected | [Magisk #9319](https://github.com/topjohnwu/Magisk/issues/9319) |
+| Boox Note Air 4C | 4.1 | Affected | [Community reported](https://github.com/jdkruzr/BooxPalma2RootGuide/issues/8#issuecomment-3879584476) |
+| Boox Palma 2 | 4.1 | Affected | [BooxPalma2RootGuide #8](https://github.com/jdkruzr/BooxPalma2RootGuide/issues/8) |
+| Other Boox 4.1.x devices | 4.1.x | Possibly affected | — |
 
 ## Install
 
