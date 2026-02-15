@@ -107,6 +107,7 @@ author=玄昼
 ## 注意事项
 
 - 本模块专门针对固件 4.1 的 `services.jar`，其他固件版本不适用
+- 模块内置的 `services.jar` 提取自 P6 Pro，属于设备特定文件。其他文石设备如果 `services.jar` 内容一致则可通用（如上方已确认设备列表），但不同构建的设备直接安装会导致无法开机（ART 会拒绝不匹配的 JAR）
 - 如果文石后续更新固件修复了此问题，应卸载本模块
 - OTA 更新后可能需要重新安装
 
@@ -218,6 +219,7 @@ The module uses Magisk's systemless overlay to replace `/system/framework/servic
 ## Notes
 
 - This module targets `services.jar` from firmware 4.1 specifically; other firmware versions are not supported
+- The included `services.jar` was extracted from a P6 Pro — it is device-specific. It may work on other Boox devices that share an identical `services.jar` (see confirmed devices above), but devices with a different build will fail to boot (ART rejects the mismatched JAR)
 - If Boox fixes this in a future firmware update, uninstall this module
 - May need to be reinstalled after OTA updates
 
